@@ -55,7 +55,7 @@ basicCC <- ggplot(dd3,aes(x=race,y=prcnt*100,fill=cappun))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-White people approve of the capital punishment at a ratio of about 2:1. Blck people have about an even amount of people who oppose or approve of capital punishment. The other group has a higher proportion of people who approve of capital punishment when compared to black people, but lower than white people. 
+White people approve of the capital punishment at a ratio of about 2:1. Black people have about an even amount of people who oppose or approve of capital punishment. The other group has a higher proportion of people who approve of capital punishment when compared to black people, but lower than white people. 
 
 ## Now with LESS data (more variables give less data due to NA's) create the approate graphic displays to answer the question.
 
@@ -89,3 +89,5 @@ The p-value found between the "white" and "black" groups was 0.0000741 which sho
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In the beginning I decided this was a categorical~categorical problem so I used the corresponding file to help me solve the problem. Graphing the data I found that white people had a greater proportion of people who approved of capital punishment than the "black" and "other" groups did. When I put the data in a table I found that a majority of white people, 67.75%, favor capital punishment, while 32.25% of them oppose it, a minority of black people, 47.24%, favor capital punishment, while 57.26% of them oppose it, and a majority of other people, 61.25%, favor capital punishment, while 38.75% of them oppose it. When I ran a fisher XY test, I found that there was only a statistical difference between the "black" and "white" groups. This is in stark contrast to my original findings that showed there was a statistical difference between all the groups. This difference is due to the fact my original findings were made using more data. 
